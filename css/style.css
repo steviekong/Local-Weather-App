@@ -1,0 +1,95 @@
+#set-F:hover{
+  cursor:pointer;
+  color:#4285F4;
+}
+#set-C:hover{
+  cursor:pointer;
+  color:#4285F4;
+}
+#weather-icon{
+  font-size:500%;
+}
+html, body, #heroimage{
+  width:100%;
+  height:100%;
+}
+
+#heroimage{   
+  background:url('http://placehold.it/1920x1080&text=Hero+Image') center center;
+  background-size:cover;
+}
+.main-content{
+  height:100%;
+  align-items:center;
+}
+.city{  
+  font-family: 'Quicksand', sans-serif;
+  padding-bottom:5%;
+  padding-top:4%;
+  color:white;
+  border-bottom:1px soild white;
+}
+#temp{
+  font-size:400%;
+  font-family: 'Quicksand', sans-serif;
+  color:white;
+}
+#unit-deg{
+  font-size:120%;
+}
+#max-min{
+  padding-left:10%;
+  padding-top:11%;
+}
+
+.max-text{
+  font-family: 'Quicksand', sans-serif;
+  color:white;
+}
+.main-cont{
+  border:1px solid black;
+  padding-left:1%;
+  padding-right:1%;
+  background: rgba(33,33,33,0.9);
+  border-radius:10px;
+}
+.wi{
+  color:white;
+}
+footer{
+  background: rgba(33,33,33,1);
+}
+.dark{
+  color:white;
+  padding:1%;
+  margin:0;
+}
+.dark:hover{
+  cursor:pointer;
+  color:#4285F4;
+}
+.footer-text{
+  color:white;
+  padding:1%;
+  margin:0;
+}
+.fa-github{
+  color:white;
+}
+.fa-github:hover{
+   color:#4285F4;
+}
+.fa-linkedin-square{
+  color:white;
+}
+.fa-linkedin-square:hover{
+   color:#4285F4;
+}
+.media-icons{
+  padding-top:1%;
+  padding-right:1%;
+}
+.icon-para{
+  margin:0;
+}
+
