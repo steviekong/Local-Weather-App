@@ -69,7 +69,7 @@ function getIconId(icon){
 //Returns an image link based on type of weather AKA icon value 
 function getBgImg(icon){
   var iconValues=["clear-day","clear-night", "rain", "snow", "sleet", "wind", "fog", "cloudy", "partly-cloudy-day","partly-cloudy-night"];
-  var imgLinks=["https://i.imgpile.com/n7vidR.jpg","https://i.imgpile.com/n7vsmg.jpg","https://i.imgpile.com/n7vPSr.jpg","https://i.imgpile.com/n7vcgc.jpg","https://i.imgpile.com/n7vlUN.jpg","https://i.imgpile.com/n7vmYW.jpg","https://i.imgpile.com/n7vrkP.jpg","https://i.imgpile.com/n7vVtL.jpg","https://i.imgpile.com/n7v8n1.jpg"];
+  var imgLinks=["https://i.imgpile.com/n7vidR.jpg","https://i.imgpile.com/n7vsmg.jpg","https://i.imgpile.com/n7vPSr.jpg","https://i.imgpile.com/n7vcgc.jpg","https://i.imgpile.com/n7vlUN.jpg","https://i.imgpile.com/n7vmYW.jpg","https://i.imgpile.com/n7vrkP.jpg","https://i.imgpile.com/n7vVtL.jpg","https://i.imgpile.com/n7yOVG.jpg","https://i.imgpile.com/n7v8n1.jpg"];
   for(i=0;i<iconValues.length;i++){
     if(iconValues[i]==icon){
       return imgLinks[i];
